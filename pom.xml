@@ -9,9 +9,9 @@
   <url>http://www.usmartbox.com/</url>
   <description>usmartbox sdk</description>
   <scm>
-    <connection>scm:git:git@github.com:swagger-api/swagger-codegen.git</connection>
-    <developerConnection>scm:git:git@github.com:swagger-api/swagger-codegen.git</developerConnection>
-    <url>https://github.com/swagger-api/swagger-codegen</url>
+    <connection>scm:git:git@github.com:xiaoq7758/usmartbox-java-client.git</connection>
+    <developerConnection>scm:git:git@github.com:xiaoq7758/usmartbox-java-client.git</developerConnection>
+    <url>https://github.com/xiaoq7758/usmartbox-java-client.git</url>
   </scm>
   <prerequisites>
     <maven>2.2.0</maven>
