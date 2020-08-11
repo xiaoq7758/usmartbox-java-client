@@ -222,13 +222,13 @@
   </properties>
 
   <distributionManagement>
-  <repository>
-    <id>rdc-release</id>
-    <url>https://packages.aliyun.com/maven/repository/2022391-release-84Cb6V/</url>
-  </repository>
-  <snapshotRepository>
-    <id>rdc-snapshot</id>
-    <url>https://packages.aliyun.com/maven/repository/2022391-snapshot-6VLzX7/</url>
-  </snapshotRepository>
+    <repository>
+        <id>rdc-releases</id>
+        <url>https://repo.rdc.aliyun.com/repository/116874-release-iMqrFD/</url>
+    </repository>
+    <snapshotRepository>
+        <id>rdc-snapshots</id>
+        <url>https://repo.rdc.aliyun.com/repository/116874-snapshot-s7XxU5/</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
