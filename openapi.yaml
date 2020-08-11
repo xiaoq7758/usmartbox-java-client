@@ -1,0 +1,593 @@
+openapi: 3.0.0
+info:
+  description: "电商对接API参考文档"
+  version: "2.2.2"
+  title: "电商对接API参考文档"
+  termsOfService: "http://www.usmartbox.com"
+  contact:
+    email: "qyang@yicksolutions.com"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+servers:
+  - url: https://api.usmartbox.com
+paths:
+  /ec/ordercreate.json:
+    post:
+      tags:
+      - "pet"
+      summary: "电商端生成订单后通知智能柜服务器端"
+      description: ""
+      operationId: "ordercreate"
+      parameters:
+      - in: "query"
+        name: "apikey"
+        description: "key"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "nonce"
+        description: "32位随机数"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "sign"
+        description: "用于校验"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "cardfaceno"
+        description: "卡面号(印刷在卡表面的编号)"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "cardno"
+        description: "卡内芯片号(取IC卡号前10位)"
+        required: false
+        schema:
+          type: string
+      
+      - in: "query"
+        name: "orderid"
+        description: "订单号(条形码上内容)"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "phone"
+        description: "收件人手机号"
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: "OK"
+          content:
+            applicaiton/json:
+              schema:
+                $ref: '#/components/schemas/BasicApiResponse'
+  /ec/branch.json:
+    post:
+      tags:
+      - "Branch"
+      summary: "根据城市及区号查询下属网点"
+      description: ""
+      operationId: "searchBranch"
+      parameters:
+      - in: "query"
+        name: "apikey"
+        description: "key"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "nonce"
+        description: "32位随机数"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "sign"
+        description: "用于校验"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "city"
+        description: "城市编号"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "district"
+        description: "区号编号"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "orderid"
+        description: "订单号(条形码上内容)"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "phone"
+        description: "收件人手机号"
+        required: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: "OK"
+          content:
+            applicaiton/json:
+              schema:
+                $ref: '#/components/schemas/BranchSearchResponse'
+  /ec/box.json:
+    post:
+      tags:
+      - "Box"
+      summary: "根据城市及区号及网点编号查询下属柜子"
+      description: ""
+      operationId: "searchBox"
+      parameters:
+      - in: "query"
+        name: "apikey"
+        description: "key"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "nonce"
+        description: "32位随机数"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "sign"
+        description: "用于校验"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "city"
+        description: "城市编号"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "district"
+        description: "区号编号"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "branchno"
+        description: "网点编号"
+        required: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: "OK"
+          content:
+            applicaiton/json:
+              schema:
+                $ref: '#/components/schemas/BoxSearchResponse'      
+  /ec/branchbox.json:
+    post:
+      tags:
+      - "Box"
+      summary: "根据城市及区号查询下属网点及柜子"
+      description: ""
+      operationId: "searchBranchBox"
+      parameters:
+      - in: "query"
+        name: "apikey"
+        description: "key"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "nonce"
+        description: "32位随机数"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "sign"
+        description: "用于校验"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "city"
+        description: "城市编号"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "district"
+        description: "区号编号"
+        required: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: "OK"
+          content:
+            applicaiton/json:
+              schema:
+                $ref: '#/components/schemas/BranchBoxSearchResponse'
+  /ec/cun.json:
+    post:
+      tags:
+      - "Box"
+      summary: "远程存"
+      description: ""
+      operationId: "remotePutInBox"
+      parameters:
+      - in: "query"
+        name: "apikey"
+        description: "key"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "nonce"
+        description: "32位随机数"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "sign"
+        description: "用于校验"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "boxno"
+        description: "柜子编号"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "butype"
+        description: "业务类型"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "func"
+        description: "格子功能 目前1常温2冷藏"
+        required: false
+        schema:
+          type: string
+          enum: [1,2]
+      - in: "query"
+        name: "kphone"
+        description: "配送员手机号"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "orderid"
+        description: "订单号"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "phone"
+        description: "收货人手机号"
+        required: false
+        schema:
+          type: string
+      - in: "query"
+        name: "size"
+        description: "格子大小"
+        required: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: "OK"
+          content:
+            applicaiton/json:
+              schema:
+                $ref: '#/components/schemas/RemotePutInResponse'
+  /ec/cunr.json:
+    post:
+      tags:
+      - "Box"
+      summary: "远程存"
+      description: ""
+      operationId: "remotePutInBoxHistory"
+      parameters:
+      - in: "query"
+        name: "apikey"
+        description: "key"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "nonce"
+        description: "32位随机数"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "sign"
+        description: "用于校验"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "orderid"
+        description: "订单号"
+        required: false
+        schema:
+          type: string
+      responses:
+        '200':
+          description: "OK"
+          content:
+            applicaiton/json:
+              schema:
+                $ref: '#/components/schemas/RemotePutInHistoryResponse'
+  /ec/qu.json:
+    post:
+      tags:
+      - "Box"
+      summary: "远程取"
+      description: ""
+      operationId: "remoteTakeOutBox"
+      parameters:
+      - in: "query"
+        name: "apikey"
+        description: "key"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "nonce"
+        description: "32位随机数"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "sign"
+        description: "用于校验"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "gridno"
+        description: "完整格号"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "opencode"
+        description: "取货密码"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "seqid"
+        description: "流水号"
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: "OK"
+          content:
+            applicaiton/json:
+              schema:
+                $ref: '#/components/schemas/RemoteTakeOutResponse'
+  /ec/qur.json:
+    post:
+      tags:
+      - "Box"
+      summary: "查询取件状态"
+      description: ""
+      operationId: "remoteTakeOutHistory"
+      parameters:
+      - in: "query"
+        name: "apikey"
+        description: "key"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "nonce"
+        description: "32位随机数"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "sign"
+        description: "用于校验"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "gridno"
+        description: "完整格号"
+        required: true
+        schema:
+          type: string
+      - in: "query"
+        name: "seqid"
+        description: "流水号"
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: "OK"
+          content:
+            applicaiton/json:
+              schema:
+                $ref: '#/components/schemas/RemoteTakeOutResponse'
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: "apiKey"
+      name: "apikey"
+      in: "query"
+  schemas:
+    BasicApiResponse:
+      type: object
+      properties:
+        r:
+          type: string
+    Branch:
+      type: "object"
+      properties:
+        city:
+          type: "string"
+          description: "城市代码"
+        dtname:
+          type: "string"
+          description: "区"
+        branchno:
+          type: "string"
+          description: "网点编号"
+        name:
+          type: "string"
+          description: "网点名称"
+        district:
+          type: "string"
+          default: false
+        lon:
+          type: "number"
+        lat:
+          type: "number"
+    Box:
+      type: "object"
+      properties:
+        city:
+          type: "string"
+          description: "城市代码"
+        location:
+          type: "string"
+          description: "地址"
+        boxno:
+          type: "string"
+          description: "柜子编号"
+        name:
+          type: "string"
+          description: "网点名称"
+        district:
+          type: "string"
+          default: false
+        lon:
+          type: "number"
+        lat:
+          type: "number"
+    BranchBox:
+     allOf:
+      - $ref: '#/components/schemas/Branch'
+      - type: object
+        properties:
+          boxlist:
+            type: array
+            items:
+              $ref: '#/components/schemas/Box'
+    BranchSearchResponse:
+      allOf:
+        - $ref: '#/components/schemas/BasicApiResponse'
+        - type: object
+          properties:
+            list:
+              type: array
+              items:
+                $ref: '#/components/schemas/Branch'
+    BoxSearchResponse:
+      allOf:
+        - $ref: '#/components/schemas/BasicApiResponse'
+        - type: object
+          properties:
+            list:
+              type: array
+              items:
+                $ref: '#/components/schemas/Box'
+    BranchBoxSearchResponse:
+      allOf:
+        - $ref: '#/components/schemas/BasicApiResponse'
+        - type: object
+          properties:
+            list:
+              type: array
+              items:
+                $ref: '#/components/schemas/Box'
+    RemotePutInResponse:
+      allOf:
+      - $ref: '#/components/schemas/BasicApiResponse'
+      - type: object
+        properties:
+          gridno:
+            type: string
+            description: 打开的格子完整编号
+          showgridno:
+            type: string
+            description: 打开的格子编号,用于显示
+          opencode:
+            type: string
+            description: 取出密码
+          seqid:
+            type: string
+            description: 流水号
+    RemotePutInHistoryResponse:
+      allOf:
+      - $ref: '#/components/schemas/BasicApiResponse'
+      - type: object
+        properties:
+          gridno:
+            type: string
+            description: 完整格号
+          showgridno:
+            type: string
+            description: 格号，用于显示给客户
+          seqid:
+            type: string
+            description: 流水号
+          location:
+            type: string
+            description: 柜子地址
+          starttime:
+            type: string
+            description: 存入时间
+          endtime:
+            type: string
+            description: 取走时间 (没取的话没这个key)
+          status:
+            type: integer
+            description: '1已存入柜子;2用户取走;3快递员取出;4系统复原'
+    RemoteTakeOutResponse:
+      allOf:
+      - $ref: '#/components/schemas/BasicApiResponse'
+      - type: object
+        properties:
+          nonce:
+            type: string
+            description: 随机数 随机数和完整的格号一起可以查询开柜结果
+          showgridno:
+            type: string
+            description: 用于显示的格号
+    RemoteTakeOutHistoryResponse:
+      allOf:
+      - $ref: '#/components/schemas/BasicApiResponse'
+      - type: object
+        properties:
+          status:
+            type: string
+            description: '1未取走;2用户取走;3快递员取出;4系统复原'
+externalDocs:
+  description: "Find out more about Swagger"
+  url: "http://swagger.io"
