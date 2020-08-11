@@ -2,7 +2,7 @@
 
 电商对接API参考文档
 - API version: 2.2.2
-  - Build date: 2020-08-11T11:22:01.772Z[GMT]
+  - Build date: 2020-08-11T11:40:26.060Z[GMT]
 
 电商对接API参考文档
 
@@ -38,8 +38,8 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>io.swagger</groupId>
-  <artifactId>swagger-java-client</artifactId>
+  <groupId>cn.acey.integrate</groupId>
+  <artifactId>sdk-usmartbod</artifactId>
   <version>1.0.0</version>
   <scope>compile</scope>
 </dependency>
@@ -50,7 +50,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "io.swagger:swagger-java-client:1.0.0"
+compile "cn.acey.integrate:sdk-usmartbod:1.0.0"
 ```
 
 ### Others
@@ -63,7 +63,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/swagger-java-client-1.0.0.jar`
+* `target/sdk-usmartbod-1.0.0.jar`
 * `target/lib/*.jar`
 
 ## Getting Started
@@ -254,7 +254,7 @@ Class | Method | HTTP request | Description
 *BoxApi* | [**searchBox**](docs/BoxApi.md#searchBox) | **POST** /ec/box.json | 根据城市及区号及网点编号查询下属柜子
 *BoxApi* | [**searchBranchBox**](docs/BoxApi.md#searchBranchBox) | **POST** /ec/branchbox.json | 根据城市及区号查询下属网点及柜子
 *BranchApi* | [**searchBranch**](docs/BranchApi.md#searchBranch) | **POST** /ec/branch.json | 根据城市及区号查询下属网点
-*PetApi* | [**ordercreate**](docs/PetApi.md#ordercreate) | **POST** /ec/ordercreate.json | 电商端生成订单后通知智能柜服务器端
+*OrderApi* | [**ordercreate**](docs/OrderApi.md#ordercreate) | **POST** /ec/ordercreate.json | 电商端生成订单后通知智能柜服务器端
 
 ## Documentation for Models
 

@@ -26,7 +26,7 @@ import java.io.IOException;
  * RemoteTakeOutResponse
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2020-08-11T11:22:01.772Z[GMT]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2020-08-11T11:40:26.060Z[GMT]")
 public class RemoteTakeOutResponse extends BasicApiResponse {
   @SerializedName("nonce")
   private String nonce = null;

@@ -30,7 +30,7 @@ import java.util.List;
  * BranchBox
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2020-08-11T11:22:01.772Z[GMT]")
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2020-08-11T11:40:26.060Z[GMT]")
 public class BranchBox extends Branch {
   @SerializedName("boxlist")
   private List<Box> boxlist = null;
