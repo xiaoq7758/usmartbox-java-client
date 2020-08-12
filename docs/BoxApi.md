@@ -20,8 +20,8 @@ Method | HTTP request | Description
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.BoxApi;
+//import ApiException;
+//import BoxApi;
 
 
 BoxApi apiInstance = new BoxApi();
@@ -81,8 +81,8 @@ No authorization required
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.BoxApi;
+//import ApiException;
+//import BoxApi;
 
 
 BoxApi apiInstance = new BoxApi();
@@ -130,8 +130,8 @@ No authorization required
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.BoxApi;
+//import ApiException;
+//import BoxApi;
 
 
 BoxApi apiInstance = new BoxApi();
@@ -183,8 +183,8 @@ No authorization required
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.BoxApi;
+//import ApiException;
+//import BoxApi;
 
 
 BoxApi apiInstance = new BoxApi();
@@ -234,8 +234,8 @@ No authorization required
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.BoxApi;
+//import ApiException;
+//import BoxApi;
 
 
 BoxApi apiInstance = new BoxApi();
@@ -287,8 +287,8 @@ No authorization required
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.BoxApi;
+//import ApiException;
+//import BoxApi;
 
 
 BoxApi apiInstance = new BoxApi();

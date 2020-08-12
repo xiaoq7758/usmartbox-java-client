@@ -15,8 +15,8 @@ Method | HTTP request | Description
 ### Example
 ```java
 // Import classes:
-//import io.swagger.client.ApiException;
-//import io.swagger.client.api.BranchApi;
+//import ApiException;
+//import BranchApi;
 
 
 BranchApi apiInstance = new BranchApi();

@@ -2,11 +2,11 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>cn.acey.integrate</groupId>
-  <artifactId>sdk-usmartbod</artifactId>
+  <artifactId>usmartbox-sdk</artifactId>
   <packaging>jar</packaging>
-  <name>usmartbod-java-client</name>
-  <version>1.0.0</version>
-  <url>http://www.usmartbox.com/</url>
+  <name>usmartbox-java-client</name>
+  <version>1.0.0-RC1</version>
+  <url>https://github.com/xiaoq7758/usmartbox-java-client</url>
   <description>usmartbox sdk</description>
   <scm>
     <connection>scm:git:git@github.com:xiaoq7758/usmartbox-java-client.git</connection>
@@ -19,7 +19,7 @@
 
   <licenses>
     <license>
-      <name>Unlicense</name>
+      <name>Apache License V2.0</name>
       <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
       <distribution>repo</distribution>
     </license>
@@ -206,12 +206,17 @@
       <version>${junit-version}</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>org.apache.tomcat.embed</groupId>
+          <artifactId>tomcat-embed-core</artifactId>
+          <version>8.5.43</version>
+      </dependency>
   </dependencies>
   <properties>
     <java.version>1.7</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
-    <swagger-core-version>2.0.0</swagger-core-version>
+    <swagger-core-version>2.1.2</swagger-core-version>
     <okhttp-version>2.7.5</okhttp-version>
     <gson-version>2.8.1</gson-version>
     <gson-fire-version>1.8.3</gson-fire-version>
@@ -222,13 +227,15 @@
   </properties>
 
   <distributionManagement>
-    <repository>
-        <id>rdc-releases</id>
-        <url>https://repo.rdc.aliyun.com/repository/116874-release-iMqrFD/</url>
-    </repository>
-    <snapshotRepository>
-        <id>rdc-snapshots</id>
-        <url>https://repo.rdc.aliyun.com/repository/116874-snapshot-s7XxU5/</url>
+   <snapshotRepository>
+        <id>sonatype-nexus-snapshots</id>
+        <name>Sonatype Nexus Snapshots</name>
+        <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
     </snapshotRepository>
-</distributionManagement>
+    <repository>
+        <id>sonatype-nexus-staging</id>
+        <name>Nexus Release Repository</name>
+        <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
 </project>

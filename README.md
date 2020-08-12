@@ -71,10 +71,10 @@ Then manually install the following JARs:
 Please follow the [installation](#installation) instruction and execute the following Java code:
 
 ```java
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.BoxApi;
+import cn.acey.integrate.usmartbox.client.*;
+import cn.acey.integrate.usmartbox.client.auth.*;
+import cn.acey.integrate.usmartbox.client.model.*;
+import cn.acey.integrate.usmartbox.client.api.BoxApi;
 
 import java.io.File;
 import java.util.*;
@@ -103,10 +103,10 @@ public class BoxApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.BoxApi;
+import cn.acey.integrate.usmartbox.client.*;
+import cn.acey.integrate.usmartbox.client.auth.*;
+import cn.acey.integrate.usmartbox.client.model.*;
+import cn.acey.integrate.usmartbox.client.api.BoxApi;
 
 import java.io.File;
 import java.util.*;
@@ -129,10 +129,10 @@ public class BoxApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.BoxApi;
+import cn.acey.integrate.usmartbox.client.*;
+import cn.acey.integrate.usmartbox.client.auth.*;
+import cn.acey.integrate.usmartbox.client.model.*;
+import cn.acey.integrate.usmartbox.client.api.BoxApi;
 
 import java.io.File;
 import java.util.*;
@@ -157,10 +157,10 @@ public class BoxApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.BoxApi;
+import cn.acey.integrate.usmartbox.client.*;
+import cn.acey.integrate.usmartbox.client.auth.*;
+import cn.acey.integrate.usmartbox.client.model.*;
+import cn.acey.integrate.usmartbox.client.api.BoxApi;
 
 import java.io.File;
 import java.util.*;
@@ -184,10 +184,10 @@ public class BoxApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.BoxApi;
+import cn.acey.integrate.usmartbox.client.*;
+import cn.acey.integrate.usmartbox.client.auth.*;
+import cn.acey.integrate.usmartbox.client.model.*;
+import cn.acey.integrate.usmartbox.client.api.BoxApi;
 
 import java.io.File;
 import java.util.*;
@@ -212,10 +212,10 @@ public class BoxApiExample {
         }
     }
 }
-import io.swagger.client.*;
-import io.swagger.client.auth.*;
-import io.swagger.client.model.*;
-import io.swagger.client.api.BoxApi;
+import cn.acey.integrate.usmartbox.client.*;
+import cn.acey.integrate.usmartbox.client.auth.*;
+import cn.acey.integrate.usmartbox.client.model.*;
+import cn.acey.integrate.usmartbox.client.api.BoxApi;
 
 import java.io.File;
 import java.util.*;
