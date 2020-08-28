@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.acey.integrate</groupId>
     <artifactId>spring-boot-starter-usmartbox</artifactId>
-    <version>1.0.0-bate2</version>
+    <version>1.0.0-bate3</version>
     <name>spring-boot-starter-usmartbox</name>
     <url>https://github.com/xiaoq7758/usmartbox-java-client</url>
     <description>usmartbox sdk</description>
@@ -192,7 +192,7 @@
         <dependency>
             <groupId>cn.acey.integrate</groupId>
             <artifactId>usmartbox-sdk</artifactId>
-            <version>1.0.0-bate2</version>
+            <version>1.0.0-bate3</version>
         </dependency>
     </dependencies>
     <properties>
