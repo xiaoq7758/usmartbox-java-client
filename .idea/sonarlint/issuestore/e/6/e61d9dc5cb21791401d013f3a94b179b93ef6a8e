@@ -1,0 +1,60 @@
+
+O
+java:S1068?"9Remove this unused "lenientDatetimeFormat" private field.(‹åøÊ
+D
+java:S1068@".Remove this unused "dateLength" private field.(Êà²
+a	java:S112–"FDefine and throw a dedicated exception instead of using a generic one.(÷ÆÄğúÿÿÿÿ
+V
+java:S5527Š	"?Enable server hostname verification on this SSL/TLS connection.(“Œ‡
+H
+java:S4423Ÿ	",Change this code to use a stronger protocol.(´âéüÿÿÿÿ
+a	java:S112§	"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+˜
+java:S1186‚	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ßÛÛì
+W
+java:S4830€	"@Enable server certificate validation on this SSL/TLS connection.(ÖÉåá
+Q	java:S107Ä"<Method has 9 parameters, which is greater than 7 authorized.(ÆáÊH
+t
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡ËˆŸùÿÿÿÿ
+˜
+java:S1186€	"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÖÉåá
+E
+java:S3740š"/Provide the parametrized type for this generic.(£Ì€0
+\	java:S112´"FDefine and throw a dedicated exception instead of using a generic one.(ŞŒ£•
+o
+java:S2293É"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ«Œ
+W	java:S107¯"<Method has 9 parameters, which is greater than 7 authorized.(˜“Úˆüÿÿÿÿ
+Z
+java:S1854†	">Remove this useless assignment to local variable "sslContext".(´âéüÿÿÿÿ
+H
+java:S4423†	",Change this code to use a stronger protocol.(´âéüÿÿÿÿ
+W
+java:S10756"ARefactor your code to get this URI from a customizable parameter.(ÇäÁÇ
+i
+java:S3776ø"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ÊÙÿö
+K
+java:S1481†	"/Remove this unused "sslContext" local variable.(´âéüÿÿÿÿ
+a	java:S112¼"FDefine and throw a dedicated exception instead of using a generic one.(°¼Ğûÿÿÿÿ
+k
+java:S1192Œ"TDefine a constant instead of duplicating this literal "Content-Disposition" 3 times.(—ƒŞ‘
+o
+java:S2293Z"YReplace the type specification in this constructor call with the diamond operator ("<>").(é˜“ë
+i
+java:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(æáÛó
+W
+java:S4830‚	"@Enable server certificate validation on this SSL/TLS connection.(ßÛÛì
+B
+java:S1168„	"&Return an empty array instead of null.(ëƒÖÍşÿÿÿÿ
+@
+java:S1905Ë")Remove this unnecessary cast to "String".(ùâÆ§
+h
+java:S1192ı"QDefine a constant instead of duplicating this literal "application/json" 3 times.(ï·æü
+a	java:S112¥"FDefine and throw a dedicated exception instead of using a generic one.(÷ÆÄğúÿÿÿÿ
+H
+java:S1068>"2Remove this unused "datetimeFormat" private field.(´Â×
+\	java:S112Ã"FDefine and throw a dedicated exception instead of using a generic one.(ŞŒ£•
+p
+java:S2293‡"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò³Í¾
+\	java:S112Ò"FDefine and throw a dedicated exception instead of using a generic one.(¡×ú
+p
+java:S2293›"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò³Í¾

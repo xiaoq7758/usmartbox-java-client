@@ -1,0 +1,224 @@
+
+
+java:S2681c"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(š°í¼
+¢
+java:S2681W"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ìÜßÜşÿÿÿÿ
+¢
+java:S2681g"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(¾ÄÛõüÿÿÿÿ
+c
+java:S3973 "GUse indentation to denote the code conditionally executed by this "if".(ìÜßÜşÿÿÿÿ
+£
+java:S2681ÿ"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ù„Ÿşÿÿÿÿ
+b
+java:S3973]"GUse indentation to denote the code conditionally executed by this "if".(øşéüÿÿÿÿ
+c
+java:S3973‹"GUse indentation to denote the code conditionally executed by this "if".(¨øğ±ıÿÿÿÿ
+£
+java:S2681 "†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ìÜßÜşÿÿÿÿ
+s
+java:S1488Ø"\Immediately return this expression instead of assigning it to the temporary variable "call".(ãŠ»ü
+o
+java:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+\
+java:S1192X"FDefine a constant instead of duplicating this literal "nonce" 6 times.(Ô˜”º
+W	java:S107ó"<Method has 8 parameters, which is greater than 7 authorized.(­‰¯àùÿÿÿÿ
+]
+java:S1075‡"ARefactor your code to get this URI from a customizable parameter.(£‘… üÿÿÿÿ
+c
+java:S3973Ö"GUse indentation to denote the code conditionally executed by this "if".(ìÜßÜşÿÿÿÿ
+u
+java:S2293”"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+p
+java:S2293¤"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+p
+java:S2293ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+p
+java:S2293Š"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+^
+java:S3973¯"GUse indentation to denote the code conditionally executed by this "if".(Èµ’î
+£
+java:S2681Ö"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ìÜßÜşÿÿÿÿ
+r
+java:S1488™"\Immediately return this expression instead of assigning it to the temporary variable "call".(Õ´Ò
+¢
+java:S2681_"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(½ŸÀûÿÿÿÿ
+c
+java:S3973¥"GUse indentation to denote the code conditionally executed by this "if".(¨øğ±ıÿÿÿÿ
+c
+java:S3973Ú"GUse indentation to denote the code conditionally executed by this "if".(ºÊò‡úÿÿÿÿ
+c
+java:S3973Ø"GUse indentation to denote the code conditionally executed by this "if".(ù„Ÿşÿÿÿÿ
+R	java:S107‹"=Method has 12 parameters, which is greater than 7 authorized.(²ñ‰R
+c
+java:S3973Ô"GUse indentation to denote the code conditionally executed by this "if".(¨øğ±ıÿÿÿÿ
+c
+java:S3973©"GUse indentation to denote the code conditionally executed by this "if".(ù„Ÿşÿÿÿÿ
+£
+java:S2681­"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(¢’¿ÿÿÿÿÿ
+W	java:S107©"<Method has 8 parameters, which is greater than 7 authorized.(Æû£èûÿÿÿÿ
+c
+java:S3973¤"GUse indentation to denote the code conditionally executed by this "if".(ì¸¬áúÿÿÿÿ
+
+java:S2681‘"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(š°í¼
+
+java:S2681¯"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(Èµ’î
+¢
+java:S2681Y"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ù„Ÿşÿÿÿÿ
+b
+java:S3973["GUse indentation to denote the code conditionally executed by this "if".(Åı‡ûÿÿÿÿ
+b
+java:S3973g"GUse indentation to denote the code conditionally executed by this "if".(¾ÄÛõüÿÿÿÿ
+o
+java:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+c
+java:S3973ÿ"GUse indentation to denote the code conditionally executed by this "if".(ù„Ÿşÿÿÿÿ
+p
+java:S2293ú"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+\
+java:S1075Q"ARefactor your code to get this URI from a customizable parameter.(­–„£ùÿÿÿÿ
+p
+java:S2293Ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+u
+java:S2293©"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+
+java:S2681a"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(—ş”
+t
+java:S2293l"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+c
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(ù„Ÿşÿÿÿÿ
+b
+java:S3973_"GUse indentation to denote the code conditionally executed by this "if".(½ŸÀûÿÿÿÿ
+
+java:S2681Ü"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(Èµ’î
+p
+java:S2293Ó"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+¢
+java:S2681e"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ºıÎøÿÿÿÿ
+p
+java:S2293‰"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+¢
+java:S2681]"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(øşéüÿÿÿÿ
+c
+java:S3973¢"GUse indentation to denote the code conditionally executed by this "if".(ù„Ÿşÿÿÿÿ
+u
+java:S2293²"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+b
+java:S1192V"GDefine a constant instead of duplicating this literal "apikey" 6 times.(üº­“üÿÿÿÿ
+£
+java:S2681©"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ù„Ÿşÿÿÿÿ
+£
+java:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ì¸¬áúÿÿÿÿ
+X	java:S107²"=Method has 10 parameters, which is greater than 7 authorized.(Ù½È°úÿÿÿÿ
+s
+java:S1488–"\Immediately return this expression instead of assigning it to the temporary variable "call".(Ù¼æ­
+£
+java:S2681§"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ìÜßÜşÿÿÿÿ
+c
+java:S1192x"MDefine a constant instead of duplicating this literal "Content-Type" 6 times.(¾’Å˜
+£
+java:S2681ƒ"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ÏÙÏ’ÿÿÿÿÿ
+^
+java:S3973‘"GUse indentation to denote the code conditionally executed by this "if".(š°í¼
+£
+java:S2681¢"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ù„Ÿşÿÿÿÿ
+£
+java:S2681¦"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ÏÙÏ’ÿÿÿÿÿ
+c
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(ì¸¬áúÿÿÿÿ
+c
+java:S3973ı"GUse indentation to denote the code conditionally executed by this "if".(ìÜßÜşÿÿÿÿ
+b
+java:S3973W"GUse indentation to denote the code conditionally executed by this "if".(ìÜßÜşÿÿÿÿ
+c
+java:S3973¦"GUse indentation to denote the code conditionally executed by this "if".(ÏÙÏ’ÿÿÿÿÿ
+b
+java:S3973Y"GUse indentation to denote the code conditionally executed by this "if".(ù„Ÿşÿÿÿÿ
+]
+java:S1075š"ARefactor your code to get this URI from a customizable parameter.(›Ôùÿÿÿÿ
+]
+java:S3973a"GUse indentation to denote the code conditionally executed by this "if".(—ş”
+b
+java:S3973U"GUse indentation to denote the code conditionally executed by this "if".(¨øğ±ıÿÿÿÿ
+u
+java:S2293ˆ"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+p
+java:S2293œ"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+£
+java:S2681«"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ºÊò‡úÿÿÿÿ
+u
+java:S2293ß"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+l
+java:S1192o"QDefine a constant instead of duplicating this literal "applicaiton/json" 6 times.(‹®¨Èúÿÿÿÿ
+u
+java:S2293´"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+c
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(¨øğ±ıÿÿÿÿ
+
+java:S2681…"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(é‚ñò
+u
+java:S2293Š"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+£
+java:S2681Ú"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ºÊò‡úÿÿÿÿ
+t
+java:S2293j"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+R	java:S107"<Method has 8 parameters, which is greater than 7 authorized.(ï½Äå
+£
+java:S2681¤"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ì¸¬áúÿÿÿÿ
+W	java:S107Ó"<Method has 8 parameters, which is greater than 7 authorized.(Üƒ·¸üÿÿÿÿ
+s
+java:S1488Ã"\Immediately return this expression instead of assigning it to the temporary variable "call".(÷í‹­
+u
+java:S2293«"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+b
+java:S1192r"GDefine a constant instead of duplicating this literal "Accept" 6 times.(ÎÈîùÿÿÿÿ
+£
+java:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ù„Ÿşÿÿÿÿ
+X	java:S107Ç"=Method has 10 parameters, which is greater than 7 authorized.(ŠÄé°úÿÿÿÿ
+c
+java:S3973«"GUse indentation to denote the code conditionally executed by this "if".(ºÊò‡úÿÿÿÿ
+¢
+java:S2681["†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(Åı‡ûÿÿÿÿ
+^
+java:S3973…"GUse indentation to denote the code conditionally executed by this "if".(é‚ñò
+c
+java:S3973­"GUse indentation to denote the code conditionally executed by this "if".(¢’¿ÿÿÿÿÿ
+b
+java:S3973e"GUse indentation to denote the code conditionally executed by this "if".(ºıÎøÿÿÿÿ
+]
+java:S3973c"GUse indentation to denote the code conditionally executed by this "if".(š°í¼
+c
+java:S3973§"GUse indentation to denote the code conditionally executed by this "if".(ìÜßÜşÿÿÿÿ
+£
+java:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ìÜßÜşÿÿÿÿ
+p
+java:S2293£"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+x
+java:S1488í"\Immediately return this expression instead of assigning it to the temporary variable "call".(èâ¥†üÿÿÿÿ
+S	java:S107Ş"=Method has 11 parameters, which is greater than 7 authorized.(ÁÎî—
+c
+java:S3973ƒ"GUse indentation to denote the code conditionally executed by this "if".(ÏÙÏ’ÿÿÿÿÿ
+p
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+s
+java:S1488·"\Immediately return this expression instead of assigning it to the temporary variable "call".(Ù¨Şœ
+R	java:S107M"=Method has 12 parameters, which is greater than 7 authorized.(ƒËŠÙ
+c
+java:S3973û"GUse indentation to denote the code conditionally executed by this "if".(¨øğ±ıÿÿÿÿ
+c
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(ìÜßÜşÿÿÿÿ
+]
+java:S1075÷"ARefactor your code to get this URI from a customizable parameter.(ı†´àÿÿÿÿÿ
+u
+java:S2293á"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+^
+java:S3973Ü"GUse indentation to denote the code conditionally executed by this "if".(Èµ’î
+]
+java:S1075¡"ARefactor your code to get this URI from a customizable parameter.(¿èçúÿÿÿÿ
+u
+java:S2293–"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+X
+java:S1075Ğ"ARefactor your code to get this URI from a customizable parameter.(æ¢ƒÀ
+£
+java:S2681Ø"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ù„Ÿşÿÿÿÿ
+£
+java:S2681ı"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ìÜßÜşÿÿÿÿ

@@ -5,7 +5,7 @@
   <artifactId>usmartbox-sdk</artifactId>
   <packaging>jar</packaging>
   <name>usmartbox-java-client</name>
-  <version>1.0.0-RC1</version>
+  <version>1.0.0-bate2</version>
   <url>https://github.com/xiaoq7758/usmartbox-java-client</url>
   <description>usmartbox sdk</description>
   <scm>

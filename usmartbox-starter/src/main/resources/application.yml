@@ -1,0 +1,6 @@
+acey:
+  integrate:
+    usmartbox:
+      host: https://api.usmartbox.com
+      apikey: aac36fc7a9354e06adb9c3eef7fe8b56
+      apisecret: 989cd798a81d475c8ad6f3ab39347db0
