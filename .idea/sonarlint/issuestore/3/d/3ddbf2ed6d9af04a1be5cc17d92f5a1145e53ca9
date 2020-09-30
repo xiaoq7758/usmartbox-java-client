@@ -1,9 +1,9 @@
 
 S
 java:S1128"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—8„íß€¿.
+u
+java:S1450"XRemove the "apiClient" field and declare it as a local variable in the relevant methods.(šÃôœ8³Àñ€¿.
 v
 java:S3305"YInject this field value directly into "usmartBoxApiClient", the only method that uses it.(·ÜÀ8™ƒ»Ñ¿.
 £
 java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼şàÌÿÿÿÿÿ8ÜşÀ€¿.
-u
-java:S1450"XRemove the "apiClient" field and declare it as a local variable in the relevant methods.(šÃôœ8³Àñ€¿.

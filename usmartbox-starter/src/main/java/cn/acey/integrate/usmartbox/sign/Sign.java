@@ -9,7 +9,7 @@ public class Sign {
     public static String signature(String apikey, String apisecret, String nonce, Map<String, String> params) {
         StringBuilder builder = new StringBuilder();
         builder.append(apikey);
-        params.keySet().stream().sorted().forEach(key -> {
+        params.keySet().stream().filter(item->{return null!=item;}).sorted().forEach(key -> {
             builder.append(params.get(key));
         });
 

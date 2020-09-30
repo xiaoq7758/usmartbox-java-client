@@ -1,20 +1,20 @@
 
+g
+java:S1301Ù"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
+g
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
 Q
-java:S1141›"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
-—
-java:S1186G"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(è™¿Ğ
-g
-java:S1301¤"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
-R	java:S125Ó"<This block of commented-out lines of code should be removed.(¹ÂÙ‡
+java:S1141–"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
 J
-java:S1066w"/Merge this if statement with the enclosing one.(¨ËÑøÿÿÿÿ
-g
-java:S1301•"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
-g
-java:S1301Ş"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
+java:S1066r"/Merge this if statement with the enclosing one.(¨ËÑøÿÿÿÿ
 —
-java:S1186l"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±Ëé°
-g
-java:S1301ø"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
+java:S1186g"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±Ëé°
 J
-java:S1066X"/Merge this if statement with the enclosing one.(¨ËÑøÿÿÿÿ
+java:S1066S"/Merge this if statement with the enclosing one.(¨ËÑøÿÿÿÿ
+g
+java:S1301ó"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
+g
+java:S1301Ÿ"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
+R	java:S125Î"<This block of commented-out lines of code should be removed.(¹ÂÙ‡
+—
+java:S1186B"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(è™¿Ğ

@@ -1,7 +1,7 @@
 
-\
-java:S1118":Add a private constructor to hide the implicit public one.(¤¡íôûÿÿÿÿ8í«ğ†¿.
-N
-java:S1602",Remove useless curly braces around statement(İÔŞ°úÿÿÿÿ8ÚÏ•‰¿.
 N
 java:S1602",Remove useless curly braces around statement(İÔŞ°úÿÿÿÿ8£øâ†¿.
+N
+java:S1602",Remove useless curly braces around statement(İÔŞ°úÿÿÿÿ8ÚÏ•‰¿.
+\
+java:S1118":Add a private constructor to hide the implicit public one.(¤¡íôûÿÿÿÿ8í«ğ†¿.
