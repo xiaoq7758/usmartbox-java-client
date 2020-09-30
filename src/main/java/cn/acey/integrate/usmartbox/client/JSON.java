@@ -43,83 +43,9 @@ public class JSON {
     private LocalDateTypeAdapter localDateTypeAdapter = new LocalDateTypeAdapter();
 
     public static GsonBuilder createGson() {
-        GsonFireBuilder fireBuilder = new GsonFireBuilder()
-          .registerTypeSelector(BasicApiResponse.class, new TypeSelector<BasicApiResponse>() {
-            @Override
-            public Class<? extends BasicApiResponse> getClassForElement(JsonElement readElement) {
-                Map<String, Class<? extends BasicApiResponse>> classByDiscriminatorValue = new HashMap<>();
-                    classByDiscriminatorValue.put("BoxSearchResponse".toUpperCase(), BoxSearchResponse.class);
-                    classByDiscriminatorValue.put("BranchBoxSearchResponse".toUpperCase(), BranchBoxSearchResponse.class);
-                    classByDiscriminatorValue.put("BranchSearchResponse".toUpperCase(), BranchSearchResponse.class);
-                    classByDiscriminatorValue.put("RemotePutInHistoryResponse".toUpperCase(), RemotePutInHistoryResponse.class);
-                    classByDiscriminatorValue.put("RemotePutInResponse".toUpperCase(), RemotePutInResponse.class);
-                    classByDiscriminatorValue.put("RemoteTakeOutHistoryResponse".toUpperCase(), RemoteTakeOutHistoryResponse.class);
-                    classByDiscriminatorValue.put("RemoteTakeOutResponse".toUpperCase(), RemoteTakeOutResponse.class);
-                    classByDiscriminatorValue.put("BasicApiResponse".toUpperCase(), BasicApiResponse.class);
-                return getClassByDiscriminator(
-                            classByDiscriminatorValue,
-                            getDiscriminatorValue(readElement, ""));
-            }
-          })
-          .registerPostProcessor(BasicApiResponse.class, new PostProcessor<BasicApiResponse>() {
-              @Override
-              public void postDeserialize(BasicApiResponse result, JsonElement src, Gson gson) {
-
-              }
-
-              @Override
-              public void postSerialize(JsonElement result, BasicApiResponse src, Gson gson) {
-                  Map<Class<? extends BasicApiResponse>, String> discriminatorValueByClass = new HashMap<>();
-                      discriminatorValueByClass.put(BoxSearchResponse.class, "BoxSearchResponse");
-                      discriminatorValueByClass.put(BranchBoxSearchResponse.class, "BranchBoxSearchResponse");
-                      discriminatorValueByClass.put(BranchSearchResponse.class, "BranchSearchResponse");
-                      discriminatorValueByClass.put(RemotePutInHistoryResponse.class, "RemotePutInHistoryResponse");
-                      discriminatorValueByClass.put(RemotePutInResponse.class, "RemotePutInResponse");
-                      discriminatorValueByClass.put(RemoteTakeOutHistoryResponse.class, "RemoteTakeOutHistoryResponse");
-                      discriminatorValueByClass.put(RemoteTakeOutResponse.class, "RemoteTakeOutResponse");
-                      discriminatorValueByClass.put(BasicApiResponse.class, "BasicApiResponse");
-                  if(result instanceof JsonObject)
-                  {
-                      if(!((JsonObject) result).has(""))
-                      {
-                          ((JsonObject) result).addProperty("", discriminatorValueByClass.get(src.getClass()));
-                      }
-                  }
-              }
-          })
-          .registerTypeSelector(Branch.class, new TypeSelector<Branch>() {
-            @Override
-            public Class<? extends Branch> getClassForElement(JsonElement readElement) {
-                Map<String, Class<? extends Branch>> classByDiscriminatorValue = new HashMap<>();
-                    classByDiscriminatorValue.put("BranchBox".toUpperCase(), BranchBox.class);
-                    classByDiscriminatorValue.put("Branch".toUpperCase(), Branch.class);
-                return getClassByDiscriminator(
-                            classByDiscriminatorValue,
-                            getDiscriminatorValue(readElement, ""));
-            }
-          })
-          .registerPostProcessor(Branch.class, new PostProcessor<Branch>() {
-              @Override
-              public void postDeserialize(Branch result, JsonElement src, Gson gson) {
-
-              }
-
-              @Override
-              public void postSerialize(JsonElement result, Branch src, Gson gson) {
-                  Map<Class<? extends Branch>, String> discriminatorValueByClass = new HashMap<>();
-                      discriminatorValueByClass.put(BranchBox.class, "BranchBox");
-                      discriminatorValueByClass.put(Branch.class, "Branch");
-                  if(result instanceof JsonObject)
-                  {
-                      if(!((JsonObject) result).has(""))
-                      {
-                          ((JsonObject) result).addProperty("", discriminatorValueByClass.get(src.getClass()));
-                      }
-                  }
-              }
-          })
-        ;
-        return fireBuilder.createGsonBuilder();
+        GsonFireBuilder fireBuilder = new GsonFireBuilder();
+        GsonBuilder builder = fireBuilder.createGsonBuilder();
+        return builder;
     }
 
     private static String getDiscriminatorValue(JsonElement readElement, String discriminatorField) {
