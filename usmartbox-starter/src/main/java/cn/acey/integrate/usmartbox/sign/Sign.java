@@ -1,6 +1,7 @@
 package cn.acey.integrate.usmartbox.sign;
 
 import org.springframework.util.DigestUtils;
+import org.springframework.util.StringUtils;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Map;
@@ -9,8 +10,11 @@ public class Sign {
     public static String signature(String apikey, String apisecret, String nonce, Map<String, String> params) {
         StringBuilder builder = new StringBuilder();
         builder.append(apikey);
-        params.keySet().stream().filter(item->{return null!=item;}).sorted().forEach(key -> {
-            builder.append(params.get(key));
+        params.keySet().stream().sorted().forEach(key -> {
+            String val = params.get(key);
+            if(!StringUtils.isEmpty(val)) {
+                builder.append(val);
+            }
         });
 
         builder.append(nonce);
@@ -26,7 +30,10 @@ public class Sign {
         String nonce = params.remove("nonce");
 
         params.keySet().stream().sorted().forEach(key -> {
-            builder.append(params.get(key));
+            String val = params.get(key);
+            if(!StringUtils.isEmpty(val)) {
+                builder.append(val);
+            }
         });
 
         builder.append(nonce);
